@@ -9,7 +9,60 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<body>
+	<!-- <body>
 		 <h1>My Astro Site</h1>
-	</body>
+	</body> -->
+	<body>
+		<header>
+		  <nav>
+			<ul>
+			  <li><a href="#about">About</a></li>
+			  <li><a href="#services">Services</a></li>
+			  <li><a href="#portfolio">Portfolio</a></li>
+			  <li><a href="#contact">Contact</a></li>
+			</ul>
+		  </nav>
+		</header>
+		<main>
+		  <section id="about">
+			<h2>About Me</h2>
+			<p>Hi, I'm Lattjorr, Purusing a data analyst Masters Degree  [X years/decades] of experience in [industry/field]. My expertise lies in [skill/tool/software/etc.], and I have a passion for helping organizations make data-driven decisions.</p>
+		  </section>
+		  <section id="services">
+			<h2>Services</h2>
+			<ul>
+			  <li>Data Analysis</li>
+			  <li>Data Visualization</li>
+			  <li>Data Modeling</li>
+			</ul>
+		  </section>
+		  <section id="portfolio">
+			<h2>Portfolio</h2>
+			<p>Here's a selection of my recent work:</p>
+			<ul>
+			  <li><a href="#">Project 1</a></li>
+			  <li><a href="#">Project 2</a></li>
+			  <li><a href="#">Project 3</a></li>
+			</ul>
+		  </section>
+		  <section id="contact">
+			<h2>Contact Me</h2>
+			<form action="#">
+			  <label for="name">Name:</label>
+			  <input type="text" id="name" name="name" required>
+			  
+			  <label for="email">Email:</label>
+			  <input type="email" id="email" name="email" required>
+			  
+			  <label for="message">Message:</label>
+			  <textarea id="message" name="message" required></textarea>
+			  
+			  <input type="submit" value="Submit">
+			</form>
+		  </section>
+		</main>
+		<footer>
+		  <p>&copy; [Your Name] 2023</p>
+		</footer>
+	  </body>
 </html>
