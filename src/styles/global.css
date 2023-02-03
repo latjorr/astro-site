@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav a {
+    color: #fff;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  section {
+    background-color: #f2f2f2;
+    border: 1px solid #333;
+    padding: 1em;
+    width: 30%;
+  }
+  
+  section h2 {
+    font-size: 1.5em;
+    margin: 0 0 1em 0;
+  }
+  
+  section p,
+  section ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  /* Color Schemes */
+  
+  /* Light Blue */
+  header {
+    background-color: #5fb3e5;
+  }
+  
+  section {
+    background-color: #d9edf7;
+  }
+  
+  /* Green */
+  header {
+    background-color: #4cae4c;
+  }
+  
+  section {
+    background-color: #dff0d8;
+  }
+  
+  /* Orange */
+  header {
+    background-color: #ff851b;
+  }
+  
+  section {
+    background-color: #fff2cc;
+  }
+  
