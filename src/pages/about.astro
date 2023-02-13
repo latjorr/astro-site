@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = 'About Me';
 ---
 
 <html lang="en">
@@ -8,7 +8,7 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewh2ort" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{pageTitle}</title>
 	</head>
 
 	<header>
@@ -22,14 +22,14 @@
 		  </ul>
 		</nav>
 	  </header>
-	  
-	<body>
 
+	<body>
+<!-- 
         <h1>My Astro Site</h1>
         <h2>My first Astro site!</h2>
-         
+          -->
 		<div class="about-me">
-			<h1>About Me</h1>
+			<h1>{pageTitle}</h1>
 			<p>Hi, I'm a data analyst and machine learning engineer with a passion for using data to drive insights and solve complex problems. My educational background includes a Bachelor's degree in Computer Science and Mathematics, where I gained a strong foundation in data structures, algorithms, and mathematical modeling. </p>
 			<p>In addition to my formal education, I am also a self-taught programmer and have spent countless hours learning and exploring the world of data science and machine learning. I am proficient in Python, and have extensive experience working with popular libraries such as NumPy, Pandas, TensorFlow, and scikit-learn. </p>
 			<p>I have worked on various projects in the field, ranging from predictive modeling and data visualization to natural language processing and computer vision. My goal is to continuously expand my knowledge and skills in the field, and apply my expertise to real-world problems that can have a positive impact on society.</p>
