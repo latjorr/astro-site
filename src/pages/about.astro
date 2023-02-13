@@ -10,7 +10,21 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
+
+	<header>
+		<nav>
+		  <ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/about/">About</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		  </ul>
+		</nav>
+	  </header>
+	  
 	<body>
+
         <h1>My Astro Site</h1>
         <h2>My first Astro site!</h2>
          
@@ -30,22 +44,117 @@
     </footer>
 </html>
 
-<style>
+<!-- <style>
 	.about-me {
 	  font-family: Arial, sans-serif;
-	  text-align: center;
+	  text-align: left;
 	  margin: 40px;
-	}
+	  	}
   
 	h1 {
 	  font-size: 32px;
 	  margin-bottom: 24px;
-	  
+
 	}
   
 	p {
 	  font-size: 18px;
 	  line-height: 1.5;
 	  margin-bottom: 24px;
+	}
+
+	footer {
+	  font-family: Arial, sans-serif;
+	  text-align: center;
+	  margin: 40px;
+  </style> -->
+
+  <style>
+	body {
+	  font-family: Arial, sans-serif;
+	  text-align: center;
+	  margin: 40px;
+	  background-color: #e6e6e6;
+	}
+
+	h1 {
+	  font-size: 32px;
+	  margin-bottom: 24px;
+	}
+
+	p {
+	  font-size: 18px;
+	  line-height: 1.5;
+	  margin-bottom: 24px;
+	}
+
+	footer {
+	  font-family: Arial, sans-serif;
+	  text-align: center;
+	  margin: 40px;
+	}
+
+	.about-me {
+	  font-family: Arial, sans-serif;
+	  text-align: left;
+	  margin: 40px;
+	}
+
+	nav {
+	  background-color: #333;
+	  overflow: hidden;
+	}
+  
+	nav ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #333;
+	}
+  
+	nav li {
+	  float: left;
+	}
+  
+	nav li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+  
+	nav li a:hover:not(.active) {
+	  background-color: #111;
+	}
+  
+	.active {
+	  background-color: #4CAF50;
+	}
+  
+	@media screen and (max-width: 600px) {
+	  nav li:not(:first-child) {display: none;}
+	  nav li.icon {
+		float: right;
+		display: block;
+	  }
+	}
+  
+	@media screen and (max-width: 600px) {
+	  nav.responsive {position: relative;}
+	  nav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	  }
+	  nav.responsive li {
+		float: none;
+		display: inline;
+	  }
+	  nav.responsive li a {
+		display: block;
+		text-align: left;
+	  }
 	}
   </style>
