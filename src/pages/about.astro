@@ -1,5 +1,25 @@
 ---
 const pageTitle = 'About Me';
+
+const identity = {
+  name: 'John Doe',
+  title: 'Data Analyst',
+  location:'Dallas,TX',
+  degree: 'B.S. Information Technology Management',
+  masters: 'M.S. Data Analytics',
+  graduate: 'December 2023',
+};
+
+const Contacts = {
+  email: 'Lattjorr@lattjorr.tech',
+  phone: '555-555-5555',
+  website: 'https://www.johndoe.com',
+  github: 'https://www.github.com/lattjorr',
+  linkedin: 'https://www.linkedin.com/in/john-doe-12345678/',
+  twitter: 'https://www.twitter.com/johndoe',
+};
+
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
 ---
 
 <html lang="en">
@@ -30,7 +50,7 @@ const pageTitle = 'About Me';
           -->
 		<div class="about-me">
 			<h1>{pageTitle}</h1>
-			<p>Hi, I'm a data analyst and machine learning engineer with a passion for using data to drive insights and solve complex problems. My educational background includes a Bachelor's degree in Computer Science and Mathematics, where I gained a strong foundation in data structures, algorithms, and mathematical modeling. </p>
+			<p>Hi, I'm a {identity.title} and machine learning engineer with a passion for using data to drive insights and solve complex problems. My educational background includes a {identity.degree}, where I gained a strong foundation in Information technology, finance and project management . </p>
 			<p>In addition to my formal education, I am also a self-taught programmer and have spent countless hours learning and exploring the world of data science and machine learning. I am proficient in Python, and have extensive experience working with popular libraries such as NumPy, Pandas, TensorFlow, and scikit-learn. </p>
 			<p>I have worked on various projects in the field, ranging from predictive modeling and data visualization to natural language processing and computer vision. My goal is to continuously expand my knowledge and skills in the field, and apply my expertise to real-world problems that can have a positive impact on society.</p>
 			<p>When I'm not working, you can find me reading up on the latest advancements in the field, playing video games, or hiking in the great outdoors. </p>
